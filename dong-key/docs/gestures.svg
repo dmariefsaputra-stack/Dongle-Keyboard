@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" font-family="Arial, Helvetica, sans-serif">
+  <rect width="760" height="300" fill="#ffffff"/>
+  <text x="380" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#1e293b">Button gestures</text>
+
+  <g font-size="14" fill="#1e293b">
+    <!-- Row helper: label | pulses | result -->
+    <text x="30" y="88" font-weight="bold">Single click</text>
+    <path d="M200 90 H230 V65 H260 V90 H520" fill="none" stroke="#38bdf8" stroke-width="3"/>
+    <rect x="560" y="64" width="170" height="32" rx="6" fill="#ecfdf5" stroke="#10b981"/>
+    <text x="645" y="85" text-anchor="middle">Password 1</text>
+
+    <text x="30" y="148" font-weight="bold">Double click</text>
+    <path d="M200 150 H230 V125 H260 V150 H290 V125 H320 V150 H520" fill="none" stroke="#38bdf8" stroke-width="3"/>
+    <rect x="560" y="124" width="170" height="32" rx="6" fill="#ecfdf5" stroke="#10b981"/>
+    <text x="645" y="145" text-anchor="middle">Password 2</text>
+
+    <text x="30" y="208" font-weight="bold">Triple click</text>
+    <path d="M200 210 H230 V185 H260 V210 H290 V185 H320 V210 H350 V185 H380 V210 H520" fill="none" stroke="#38bdf8" stroke-width="3"/>
+    <rect x="560" y="184" width="170" height="32" rx="6" fill="#ecfdf5" stroke="#10b981"/>
+    <text x="645" y="205" text-anchor="middle">Password 3</text>
+
+    <text x="30" y="268" font-weight="bold">Hold (≥ 0.75 s)</text>
+    <path d="M200 270 H230 V245 H470 V270 H520" fill="none" stroke="#38bdf8" stroke-width="3"/>
+    <rect x="560" y="244" width="170" height="32" rx="6" fill="#ecfdf5" stroke="#10b981"/>
+    <text x="645" y="265" text-anchor="middle">Password 4</text>
+  </g>
+  <text x="200" y="52" font-size="11" fill="#64748b">high = pressed · clicks must be &lt; 350 ms apart</text>
+</svg>
